@@ -33,6 +33,14 @@
             this.CalRectangle = new System.Windows.Forms.Button();
             this.textBoxRectangle = new System.Windows.Forms.TextBox();
             this.rectangelDate = new System.Windows.Forms.TextBox();
+            this.enum_test = new System.Windows.Forms.Button();
+            this.textBoxEnum_test = new System.Windows.Forms.TextBox();
+            this.static_test = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pass_by_value = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBoxLeetCodeTest = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cRectangel
@@ -79,11 +87,90 @@
             this.rectangelDate.Size = new System.Drawing.Size(100, 20);
             this.rectangelDate.TabIndex = 9;
             // 
+            // enum_test
+            // 
+            this.enum_test.Location = new System.Drawing.Point(118, 57);
+            this.enum_test.Name = "enum_test";
+            this.enum_test.Size = new System.Drawing.Size(120, 23);
+            this.enum_test.TabIndex = 10;
+            this.enum_test.Text = "enum test";
+            this.enum_test.UseVisualStyleBackColor = true;
+            this.enum_test.Click += new System.EventHandler(this.enum_test_Click);
+            // 
+            // textBoxEnum_test
+            // 
+            this.textBoxEnum_test.Location = new System.Drawing.Point(12, 59);
+            this.textBoxEnum_test.Name = "textBoxEnum_test";
+            this.textBoxEnum_test.Size = new System.Drawing.Size(100, 20);
+            this.textBoxEnum_test.TabIndex = 11;
+            // 
+            // static_test
+            // 
+            this.static_test.Location = new System.Drawing.Point(118, 86);
+            this.static_test.Name = "static_test";
+            this.static_test.Size = new System.Drawing.Size(120, 23);
+            this.static_test.TabIndex = 12;
+            this.static_test.Text = "Static fild test";
+            this.static_test.UseVisualStyleBackColor = true;
+            this.static_test.Click += new System.EventHandler(this.static_test_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(118, 203);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Static fild test";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(118, 174);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(120, 23);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Static fild test";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pass_by_value
+            // 
+            this.pass_by_value.Location = new System.Drawing.Point(118, 145);
+            this.pass_by_value.Name = "pass_by_value";
+            this.pass_by_value.Size = new System.Drawing.Size(120, 23);
+            this.pass_by_value.TabIndex = 15;
+            this.pass_by_value.Text = "pass by value";
+            this.pass_by_value.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(118, 405);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(120, 23);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Leet code test";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // textBoxLeetCodeTest
+            // 
+            this.textBoxLeetCodeTest.Location = new System.Drawing.Point(257, 405);
+            this.textBoxLeetCodeTest.Name = "textBoxLeetCodeTest";
+            this.textBoxLeetCodeTest.Size = new System.Drawing.Size(100, 20);
+            this.textBoxLeetCodeTest.TabIndex = 17;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxLeetCodeTest);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.pass_by_value);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.static_test);
+            this.Controls.Add(this.textBoxEnum_test);
+            this.Controls.Add(this.enum_test);
             this.Controls.Add(this.rectangelDate);
             this.Controls.Add(this.textBoxRectangle);
             this.Controls.Add(this.CalRectangle);
@@ -103,6 +190,14 @@
         private System.Windows.Forms.Button CalRectangle;
         private System.Windows.Forms.TextBox textBoxRectangle;
         private System.Windows.Forms.TextBox rectangelDate;
+        private System.Windows.Forms.Button enum_test;
+        private System.Windows.Forms.TextBox textBoxEnum_test;
+        private System.Windows.Forms.Button static_test;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button pass_by_value;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBoxLeetCodeTest;
     }
 }
 

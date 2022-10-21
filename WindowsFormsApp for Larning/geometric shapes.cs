@@ -11,10 +11,15 @@ namespace WindowsFormsApp_for_Larning
         private int length;
         private int width;
         private int height;
+        public static typeOfsahpe districts;
         public int Length { get { return length; } set { length = value; } }
         public int Width { get { return width; } set { width = value; } }
         public int Height { get { return height; } set { height = value; } }
-
+        
+        public void setLength (int length)
+        {
+            this.length = length;
+        }
         
     }
 }

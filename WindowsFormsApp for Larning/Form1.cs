@@ -57,5 +57,34 @@ namespace WindowsFormsApp_for_Larning
             
         }
 
+        private void enum_test_Click(object sender, EventArgs e)
+        {
+            typeOfsahpe x = (typeOfsahpe)1;
+            textBoxEnum_test.Text = x.ToString();
+        }
+
+        private void static_test_Click(object sender, EventArgs e)
+        {
+            geometric_shapes x = new geometric_shapes();
+            geometric_shapes.districts = (typeOfsahpe)3;
+            x.Height = 12;
+            x.Length = 3;
+            x.Width = 53;
+
+            MessageBox.Show("districts is:" + geometric_shapes.districts);
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string text = "VIII";
+            Solution solution = new Solution();
+
+            
+            solution.S = text;
+
+
+            MessageBox.Show(solution.RomanToInt(text).ToString());
+        }
     }
 }
